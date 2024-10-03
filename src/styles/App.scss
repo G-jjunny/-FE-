@@ -1,0 +1,12 @@
+/** 레이아웃 */
+.container {
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  justify-content: center;
+}
+.itemArea {
+  display: flex;
+  flex-direction: column;
+}

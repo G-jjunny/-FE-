@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.itemDes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-size: var(--font-lg);
+  font-weight: bold;
+}
+.date {
+  font-size: var(--font-xs);
+  color: #a2a2a2;
+}
+.price {
+  font-size: var(--font-md);
+  align-content: center;
+}
