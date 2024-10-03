@@ -1,14 +1,16 @@
 .wrapper {
-  padding: 20px 10px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  border: 1px solid #a2a2a2;
+  border-radius: 10px;
 }
 
 .itemDes {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .name {
@@ -21,5 +23,8 @@
 }
 .price {
   font-size: var(--font-md);
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
