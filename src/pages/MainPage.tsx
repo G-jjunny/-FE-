@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ItemBox from "../components/ItemBox";
 import MockData from "../types/DataType";
 import ItemStateBanner from "../components/ItemStateBanner";
